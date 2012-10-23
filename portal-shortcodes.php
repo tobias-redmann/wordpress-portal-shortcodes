@@ -10,7 +10,7 @@ Author URI: http://www.tricd.de
 
 add_shortcode('tag_index',        'portal_tag_index');
 add_shortcode('category_sitemap', 'portal_category_sitemap');
-#add_sortcode('a'				, 'portal_get_internal_url');
+add_sortcode('a'				, 'portal_get_internal_url');
 
 
 function portal_get_internal_url($attr, $content) {
